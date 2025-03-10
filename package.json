@@ -1,0 +1,14 @@
+{
+  "name": "reminder",
+  "version": "0.0.0",
+  "description": "creating a reminder for daily tasks",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx ts-node src/op.ts"
+  },
+  "author": "Rithesh",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.13.10"
+  }
+}
