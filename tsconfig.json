@@ -1,19 +1,32 @@
+// {
+//     "compilerOptions": {
+//       "target": "ES2022",
+//       "declaration": true,
+//       "moduleResolution": "Bundler",
+//       "outDir": "./dist",
+//       "esModuleInterop": true,
+//       "forceConsistentCasingInFileNames": true,
+//       "strict": true,
+//       "skipLibCheck": false,
+//       "noUnusedLocals": false,
+//       "noUnusedParameters": false,
+//       "types": ["node"],
+//       "jsx": "react",
+//       "jsxFactory": "jsx",
+//       "jsxFragmentFactory": "Fragment"
+//     },
+//     "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.mts", "src/**/*.test.ts", "src/**/*.test.tsx"]
+//   }
+
 {
-    "compilerOptions": {
-      "target": "ES2022",
-      "declaration": true,
-      "moduleResolution": "Bundler",
-      "outDir": "./dist",
-      "esModuleInterop": true,
-      "forceConsistentCasingInFileNames": true,
-      "strict": true,
-      "skipLibCheck": false,
-      "noUnusedLocals": false,
-      "noUnusedParameters": false,
-      "types": [],
-      "jsx": "react",
-      "jsxFactory": "jsx",
-      "jsxFragmentFactory": "Fragment"
-    },
-    "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.mts", "src/**/*.test.ts", "src/**/*.test.tsx"]
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "NodeNext",
+    "strict": true,
+    "verbatimModuleSyntax": true,
+    "skipLibCheck": true,
+    "types": ["node"],
+    "jsx": "react-jsx",
+    "jsxImportSource": "hono/jsx"
   }
+}
